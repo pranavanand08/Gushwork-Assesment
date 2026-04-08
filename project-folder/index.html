@@ -1,0 +1,237 @@
+<!DOCTYPE html>
+<html lang="en">
+<head>
+  <meta charset="UTF-8">
+  <meta name="viewport" content="width=device-width, initial-scale=1.0">
+  <title>HDPE Solutions | Premium Machinery</title>
+  <link rel="stylesheet" href="styles.css">
+  <link href="https://fonts.googleapis.com/css2?family=Inter:wght@300;400;600;700&display=swap" rel="stylesheet">
+</head>
+<body>
+
+  <!-- 1. STICKY HEADER -->
+  <header class="header" id="header">
+    <div class="container header-container">
+      <div class="logo">
+        <h2>HDPE Pro</h2>
+      </div>
+      
+      <nav class="nav" id="nav-menu">
+        <ul class="nav-links">
+          <li><a href="#home">Home</a></li>
+          <li><a href="#products">Products</a></li>
+          <li><a href="#process">Process</a></li>
+          <li><a href="#faq">FAQ</a></li>
+        </ul>
+      </nav>
+
+      <a href="#contact" class="btn btn-primary d-desktop">Contact Us</a>
+      
+      <!-- Mobile Menu Toggle -->
+      <button class="menu-toggle" id="menu-toggle" aria-label="Toggle Menu">
+        ☰
+      </button>
+    </div>
+  </header>
+
+  <!-- 2. HERO SECTION -->
+  <section class="hero" id="home">
+    <div class="container hero-container">
+      <div class="hero-text">
+        <h1>Premium HDPE Pipe & Custom Machinery Solutions</h1>
+        <p>Precision-engineered high-performance machinery designed to meet your industrial needs with maximum durability and efficiency.</p>
+        
+        <form class="hero-form">
+          <input type="email" placeholder="Enter your Email Address" required>
+          <button type="submit" class="btn btn-primary">Request Catalogue</button>
+        </form>
+      </div>
+    </div>
+  </section>
+
+  <!-- 3. IMAGE CAROUSEL SECTION -->
+  <section class="carousel-section bg-light" id="products">
+    <div class="container">
+      <h2 class="section-title">Versatile Applications Across Industries</h2>
+      
+      <div class="carousel-wrapper">
+        <button class="carousel-btn left" id="btn-left">❮</button>
+        
+        <div class="carousel-track-container">
+          <ul class="carousel-track" id="carousel-track">
+            
+            <li class="carousel-slide current-slide">
+              <div class="card">
+                <div class="img-wrapper">
+                  <!-- Using placeholder image from source -->
+                  <img src="https://images.unsplash.com/photo-1504917595217-d4dc5ebe6122?auto=format&fit=crop&q=80&w=400" alt="Fishnet Manufacturing">
+                </div>
+                <div class="card-content">
+                  <h3>Fishnet Manufacturing</h3>
+                  <p>High-tensile strength materials for marine applications.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="carousel-slide">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="https://images.unsplash.com/photo-1531685250784-7569952593d2?auto=format&fit=crop&q=80&w=400" alt="Technical Textiles">
+                </div>
+                <div class="card-content">
+                  <h3>Technical Textiles</h3>
+                  <p>Durable, flexible solutions for complex environments.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="carousel-slide">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="https://images.unsplash.com/photo-1590483736622-398541ce1d64?auto=format&fit=crop&q=80&w=400" alt="Industrial Piping">
+                </div>
+                <div class="card-content">
+                  <h3>Industrial Piping</h3>
+                  <p>Heavy-duty pipe manufacturing with custom dimensions.</p>
+                </div>
+              </div>
+            </li>
+
+            <li class="carousel-slide">
+              <div class="card">
+                <div class="img-wrapper">
+                  <img src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=400" alt="Water Supply">
+                </div>
+                <div class="card-content">
+                  <h3>Water Supply Grids</h3>
+                  <p>Reliable networks built to withstand high pressures.</p>
+                </div>
+              </div>
+            </li>
+
+          </ul>
+        </div>
+        
+        <button class="carousel-btn right" id="btn-right">❯</button>
+      </div>
+    </div>
+  </section>
+
+  <!-- 4. MANUFACTURING PROCESS (TABS) -->
+  <section class="process-section" id="process">
+    <div class="container">
+      <h2 class="section-title text-center">Advanced Manufacturing Process</h2>
+      
+      <div class="process-wrapper">
+        <div class="tabs">
+          <button class="tab-btn active" data-target="tab-1">Raw Material</button>
+          <button class="tab-btn" data-target="tab-2">Extrusion</button>
+          <button class="tab-btn" data-target="tab-3">Quality Control</button>
+        </div>
+
+        <div class="tab-content">
+          <div class="tab-pane active" id="tab-1">
+            <div class="pane-grid">
+              <img class="pane-image" src="https://images.unsplash.com/photo-1574359411659-15573a27fd0c?auto=format&fit=crop&q=80&w=600" alt="Raw Material">
+              <div class="pane-text">
+                <h3>Raw Material Selection</h3>
+                <p>We source the finest high-density polyethylene pellets to ensure maximum durability, resistance, and longevity of the final product.</p>
+              </div>
+            </div>
+          </div>
+          
+          <div class="tab-pane" id="tab-2">
+            <div class="pane-grid">
+              <img class="pane-image" src="https://images.unsplash.com/photo-1581091226825-a6a2a5aee158?auto=format&fit=crop&q=80&w=600" alt="Extrusion">
+              <div class="pane-text">
+                <h3>Precision Extrusion</h3>
+                <p>The plastic pellets are melted and forced through a custom die to form a continuous, seamless pipe shape.</p>
+              </div>
+            </div>
+          </div>
+
+          <div class="tab-pane" id="tab-3">
+            <div class="pane-grid">
+              <img class="pane-image" src="https://images.unsplash.com/photo-1530124566582-a618bc2615dc?auto=format&fit=crop&q=80&w=600" alt="Quality Control">
+              <div class="pane-text">
+                <h3>Rigorous Quality Control</h3>
+                <p>Each newly extruded pipe batch undergoes extreme stress, pressure, and thermal testing to meet rigorous global standards.</p>
+              </div>
+            </div>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 5. FAQ SECTION -->
+  <section class="faq-section bg-light" id="faq">
+    <div class="container">
+      <h2 class="section-title text-center">Frequently Asked Questions</h2>
+      
+      <div class="accordion">
+        <div class="accordion-item">
+          <button class="accordion-header">
+            How is HDPE tubing produced? <span class="icon">+</span>
+          </button>
+          <div class="accordion-body">
+            <p>HDPE tubing is produced through an extrusion process where raw plastic pellets are melted and pushed through a precisely engineered die.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            What are the main applications of these pipes? <span class="icon">+</span>
+          </button>
+          <div class="accordion-body">
+            <p>They are widely used in commercial water supply, natural gas distribution, wastewater management, and industrial fluid transportation.</p>
+          </div>
+        </div>
+
+        <div class="accordion-item">
+          <button class="accordion-header">
+            Do you provide custom dimensions? <span class="icon">+</span>
+          </button>
+          <div class="accordion-body">
+            <p>Yes, our advanced machinery can be configured to manufacture tubing of varying thicknesses and diameters according to required specifications.</p>
+          </div>
+        </div>
+      </div>
+    </div>
+  </section>
+
+  <!-- 6. FOOTER -->
+  <footer class="footer">
+    <div class="container footer-grid">
+      <div class="footer-brand">
+        <h3>HDPE Pro</h3>
+        <p>Premium solutions for demanding industrial applications worldwide.</p>
+      </div>
+      
+      <div class="footer-links">
+        <h4>Company</h4>
+        <ul>
+          <li><a href="#">About Us</a></li>
+          <li><a href="#">Careers</a></li>
+          <li><a href="#">Contact</a></li>
+        </ul>
+      </div>
+
+      <div class="footer-links">
+        <h4>Resources</h4>
+        <ul>
+          <li><a href="#">Blog</a></li>
+          <li><a href="#">Support</a></li>
+          <li><a href="#">Privacy Policy</a></li>
+        </ul>
+      </div>
+    </div>
+    
+    <div class="footer-bottom">
+      <p>&copy; 2026 HDPE Pro Solutions. All Rights Reserved.</p>
+    </div>
+  </footer>
+
+  <script src="script.js"></script>
+</body>
+</html>
